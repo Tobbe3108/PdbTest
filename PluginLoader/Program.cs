@@ -19,6 +19,8 @@ namespace PluginLoader
         var instance = (IPlugin)Activator.CreateInstance(type);
         Console.WriteLine(instance.Get());
       }
+
+      Console.ReadLine();
     }
   }
 }
